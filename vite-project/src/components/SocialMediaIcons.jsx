@@ -11,7 +11,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
+        href="https://img.freepik.com/premium-photo/close-up-face-beautiful-cassowary-bird-have-vivid-blue-color-beak-look-like-smile_43561-10.jpg?w=2000"
         target="_blank"
         rel="noreferrer"
       >
@@ -19,7 +19,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com"
+        href="https://pbs.twimg.com/media/De7_fWFU0AAuI0E.jpg"
         target="_blank"
         rel="noreferrer"
       >
@@ -27,7 +27,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
+        href="https://media.licdn.com/dms/image/C5608AQFpHv17JvyYFw/croft-frontend-shrinkToFit1024/0/1520458317143?e=2147483647&v=beta&t=Y9dRr6p0aTCfdRamI0E6mVqFEJulomZm8ttY0EOjZUM"
         target="_blank"
         rel="noreferrer"
       >

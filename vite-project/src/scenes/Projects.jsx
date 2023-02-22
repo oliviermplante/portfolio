@@ -73,7 +73,7 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red
+            className="flex justify-center text-center items-center p-10 bg-blue hover:filter hover:saturate-200 transition duration-500 z-10
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             BEAUTIFUL USER INTERFACES
@@ -90,7 +90,7 @@ const Projects = () => {
           <Project title="Project 6" />
           <Project title="Project 7" />
           <div
-            className="flex justify-center text-center items-center p-10 bg-blue
+            className="flex justify-center text-center items-center p-10 bg-red hover:filter hover:saturate-200 transition duration-500 z-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE

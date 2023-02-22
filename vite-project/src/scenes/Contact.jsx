@@ -33,10 +33,10 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            LET'S SPILL <span className="text-yellow">TEA</span>
           </p>
           <div className="flex md:justify-end my-5">
-            <LineGradient width="w-1/2" />
+            <LineGradient width="w-3/4" />
           </div>
         </div>
       </motion.div>
@@ -71,7 +71,7 @@ const Contact = () => {
           <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+            action="https://formsubmit.co/4be152cd395d038c7e2a7bf35ebd99d0 "
             method="POST"
           >
             <input
