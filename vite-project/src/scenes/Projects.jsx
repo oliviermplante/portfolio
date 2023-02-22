@@ -79,16 +79,15 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <a href="https://elle-gym.vercel.app" target="_blank"><Project title="Project 1" realTitle="ELLE Gym" desc="A React-Typescript website for an online gym"/></a>
-          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A full MERN stack social media clone. Try it out!"/></a>
-
+          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A MERN stack social media. Active project."/></a>
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 3" realTitle="Coming soon!" desc="Sullivan's Bazaar (E-Commerce)"/>
+          <Project title="Project 4" realTitle="Coming soon-ish" desc="Reminisce MTL (Mobile App)"/>
+          <Project title="Project 5" realTitle="Coming less soon" desc="TBD" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project title="Project 6" realTitle="Coming at some point" desc="TBD" />
+          <Project title="Project 7" realTitle="Coming one day" desc="TBD" />
           <div
             className="flex justify-center text-center items-center p-10 bg-red hover:filter hover:saturate-200 transition duration-500 z-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
