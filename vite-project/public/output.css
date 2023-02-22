@@ -1452,3 +1452,7 @@ body,
     max-width: 600px;
   }
 }
+
+.x-0 {
+  overflow-x: hidden;
+}

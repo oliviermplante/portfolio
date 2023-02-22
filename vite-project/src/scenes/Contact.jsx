@@ -33,7 +33,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            LET'S SPILL <span className="text-yellow">TEA</span>
+            LET'S SPILL SOME <span className="text-yellow">TEA</span>
           </p>
           <div className="flex md:justify-end my-5">
             <LineGradient width="w-3/4" />

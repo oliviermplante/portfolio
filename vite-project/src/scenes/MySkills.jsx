@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 const MySkills = () => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const isMobile = useMediaQuery("(max-width: 768px)");
 
   return (
     <section id="skills" className="pt-10 pb-24">
@@ -11,7 +12,7 @@ const MySkills = () => {
       <div className="md:flex md:justify-between md:gap-16 mt-32">
         <motion.div
           className="md:w-1/3"
-          initial="hidden"
+          initial={isMobile ? 'visible' : 'hidden'}       
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}

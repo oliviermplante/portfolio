@@ -79,7 +79,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <a href="https://elle-gym.vercel.app" target="_blank"><Project title="Project 1" realTitle="ELLE Gym" desc="A React-Typescript website for an online gym"/></a>
-          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A full MERN stack social media clone. Try it!"/></a>
+          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A full MERN stack social media clone. Try it out!"/></a>
 
           {/* ROW 2 */}
           <Project title="Project 3" />

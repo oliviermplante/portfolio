@@ -5,6 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  
   return (
     <section
       id="home"

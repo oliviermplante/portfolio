@@ -28,8 +28,10 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
   return (
     <div className="app bg-deep-blue">
+      <div className="x-0">
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
@@ -50,7 +52,6 @@ function App() {
           <Landing setSelectedPage={setSelectedPage} />
         </motion.div>
       </div>
-      <br /><br />
       <LineGradient />
       <div className="w-5/6 mx-auto md:h-full ">
         <motion.div
@@ -68,7 +69,6 @@ function App() {
           amount="all"
           onViewportEnter={() => setSelectedPage("projects")}
         >
-          <br /><br />
           <Projects />
         </motion.div>
       </div>
@@ -81,6 +81,7 @@ function App() {
           <Contact />
         </motion.div>
       <Footer />
+      </div>
     </div>
   );
 }
