@@ -79,11 +79,11 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <a href="https://elle-gym.vercel.app" target="_blank"><Project title="Project 1" realTitle="ELLE Gym" desc="A React-Typescript website for an online gym"/></a>
-          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A MERN stack social media. Active project."/></a>
+          <a href="https://facespace.vercel.app" target="_blank"><Project title="Project 2" realTitle="FaceSpace" desc="A MERN stack social media. Active project"/></a>
           {/* ROW 2 */}
-          <Project title="Project 3" realTitle="Coming soon!" desc="Sullivan's Bazaar (E-Commerce)"/>
-          <Project title="Project 4" realTitle="Coming soon-ish" desc="Reminisce MTL (Mobile App)"/>
-          <Project title="Project 5" realTitle="Coming less soon" desc="TBD" />
+          <a href="https://admindashboard-woad.vercel.app/dashboard" target="_blank"><Project title="Project 3" realTitle="Modern Admin Dashboard" desc="A complete dashboard for web admins that has everything you wish for"/></a>
+          <Project title="Project 4" realTitle="Coming soon" desc="Sullivan's Bazaar (e-commerce)"/>
+          <Project title="Project 5" realTitle="Coming less soon" desc="Reminisce MTL (Mobile App)" />
 
           {/* ROW 3 */}
           <Project title="Project 6" realTitle="Coming at some point" desc="TBD" />
